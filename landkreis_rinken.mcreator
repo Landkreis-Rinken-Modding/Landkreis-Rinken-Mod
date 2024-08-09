@@ -268,19 +268,6 @@
         ]
       },
       "path": "~/Feuerwehrman Sam"
-    },
-    {
-      "name": "GithubSync",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "github_sync",
-      "metadata": {
-        "files": [
-          "src/main/java/net/lkr/item/GithubSyncItem.java",
-          "src/main/resources/assets/landkreis_rinken/models/item/github_sync.json"
-        ]
-      }
     }
   ],
   "variable_elements": [],
@@ -289,7 +276,6 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "item.landkreis_rinken.github_sync": "Github Sync",
       "item.landkreis_rinken.passport": "Ausweiß",
       "gui.landkreis_rinken.spindgui.label_empty": "Spind",
       "gui.landkreis_rinken.create_passort.button_erstellen": "Erstellen",
@@ -310,7 +296,6 @@
       "gui.landkreis_rinken.create_passort.label_passport_creator": "Ausweiß Ersteller"
     },
     "de_de": {
-      "item.landkreis_rinken.github_sync": "Github Sync",
       "item.landkreis_rinken.passport": "Passportfilled",
       "gui.landkreis_rinken.spindgui.label_empty": "Spind",
       "gui.landkreis_rinken.create_passort.button_erstellen": "Erstellen",
