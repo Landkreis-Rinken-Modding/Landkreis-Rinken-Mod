@@ -268,6 +268,22 @@
         ]
       },
       "path": "~/Feuerwehrman Sam"
+    },
+    {
+      "name": "JagermeisterFlasche",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jagermeister_flasche",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/landkreis_rinken/blockstates/jagermeister_flasche.json",
+          "src/main/resources/data/landkreis_rinken/loot_tables/blocks/jagermeister_flasche.json",
+          "src/main/resources/assets/landkreis_rinken/models/item/jagermeister_flasche.json",
+          "src/main/java/net/lkr/block/JagermeisterFlascheBlock.java",
+          "src/main/resources/assets/landkreis_rinken/models/block/jagermeister_flasche.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -287,6 +303,7 @@
       "block.landkreis_rinken.spindblock": "Spindblock",
       "gui.landkreis_rinken.create_passort.Name": "Name der Person",
       "item.landkreis_rinken.f_leggins_leggings": "Feuerwehruniform Hose",
+      "block.landkreis_rinken.jagermeister_flasche": "Jagermeister Flasche",
       "item.landkreis_rinken.passporteditor": "Passporteditor",
       "gui.landkreis_rinken.passport_gui.label_name": "Name:",
       "gui.landkreis_rinken.fme.label_einsatz": "EINSATZ",
@@ -307,6 +324,7 @@
       "block.landkreis_rinken.spindblock": "Spindblock",
       "gui.landkreis_rinken.create_passort.Name": "Name der Person",
       "item.landkreis_rinken.f_leggins_leggings": "Feuerwehruniform Hose",
+      "block.landkreis_rinken.jagermeister_flasche": "Jagermeister Flasche",
       "item.landkreis_rinken.passporteditor": "Passport",
       "gui.landkreis_rinken.passport_gui.label_name": "Name:",
       "gui.landkreis_rinken.fme.label_einsatz": "EINSATZ",

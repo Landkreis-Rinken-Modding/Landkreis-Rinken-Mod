@@ -1,0 +1,9 @@
+{
+  "parent": "landkreis_rinken:custom/jaeschermeischerflasche_-_converted",
+  "textures": {
+    "all": "landkreis_rinken:block/jaschermeister",
+    "particle": "landkreis_rinken:block/jaschermeister",
+    "0": "landkreis_rinken:block/jaschermeister"
+  },
+  "render_type": "solid"
+}

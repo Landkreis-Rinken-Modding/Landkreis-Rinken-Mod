@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "landkreis_rinken:blocks/jagermeister_flasche",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "landkreis_rinken:jagermeister_flasche"
+        }
+      ]
+    }
+  ]
+}
