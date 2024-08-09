@@ -1,0 +1,9 @@
+{
+  "parent": "landkreis_rinken:custom/spind",
+  "textures": {
+    "all": "landkreis_rinken:block/texture",
+    "particle": "landkreis_rinken:block/texture",
+    "0": "landkreis_rinken:block/texture"
+  },
+  "render_type": "solid"
+}

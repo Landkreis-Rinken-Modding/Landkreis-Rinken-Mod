@@ -1,0 +1,20 @@
+{
+  "item.landkreis_rinken.passport": "Passportfilled",
+  "gui.landkreis_rinken.spindgui.label_empty": "Spind",
+  "gui.landkreis_rinken.create_passort.button_erstellen": "Erstellen",
+  "gui.landkreis_rinken.create_passort.birth": "Geburtsdatum",
+  "gui.landkreis_rinken.create_passort.name": "Name der Person",
+  "gui.landkreis_rinken.create_passort.special": "Wie soll die Lore des Ausweises sein?",
+  "gui.landkreis_rinken.create_passort.item": "Wie soll das Item heißen?",
+  "gui.landkreis_rinken.passport_gui.label_empty1": "",
+  "block.landkreis_rinken.spindblock": "Spindblock",
+  "gui.landkreis_rinken.create_passort.Name": "Name der Person",
+  "item.landkreis_rinken.f_leggins_leggings": "Feuerwehruniform Hose",
+  "item.landkreis_rinken.passporteditor": "Passport",
+  "gui.landkreis_rinken.passport_gui.label_name": "Name:",
+  "gui.landkreis_rinken.fme.label_einsatz": "EINSATZ",
+  "gui.landkreis_rinken.passport_gui.label_empty": "",
+  "gui.landkreis_rinken.create_passort.tooltip_pass": "Pass",
+  "item.landkreis_rinken.f_leggins_chestplate": "Feuerwehruniform Torso",
+  "gui.landkreis_rinken.create_passort.label_passport_creator": "Passport Creator"
+}

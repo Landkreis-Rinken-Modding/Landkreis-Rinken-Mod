@@ -1,0 +1,127 @@
+{
+  "_fv": 66,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 400,
+    "height": 245,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 42,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_passport_creator",
+          "text": {
+            "fixedValue": "Ausweiß Ersteller"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 24,
+          "y": 8
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "Name der Person",
+          "name": "name",
+          "width": 120,
+          "height": 20,
+          "x": 24,
+          "y": 80
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_erstellen",
+          "text": "Erstellen",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Fillpasport"
+          },
+          "width": 72,
+          "height": 20,
+          "x": 58,
+          "y": 219
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:Passportfilled"
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 0,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 36,
+          "y": 220
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_pass",
+          "text": {
+            "fixedValue": "Pass"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 32,
+          "y": 213
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "Wie soll das Item heißen?",
+          "name": "item",
+          "width": 120,
+          "height": 20,
+          "x": 24,
+          "y": 26
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "Wie soll die Lore des Ausweises sein?",
+          "name": "special",
+          "width": 120,
+          "height": 20,
+          "x": 24,
+          "y": 53
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "Geburtsdatum",
+          "name": "birth",
+          "width": 120,
+          "height": 20,
+          "x": 24,
+          "y": 107
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

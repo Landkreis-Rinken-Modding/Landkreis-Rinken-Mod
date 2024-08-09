@@ -1,0 +1,7 @@
+{
+  "parent": "landkreis_rinken:custom/personalausweis",
+  "textures": {
+    "0": "landkreis_rinken:block/personalausweis",
+    "particle": "landkreis_rinken:item/texture"
+  }
+}

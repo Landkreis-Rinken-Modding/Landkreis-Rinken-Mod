@@ -1,0 +1,7 @@
+{
+  "parent": "landkreis_rinken:custom/fingerabdruck_gerat",
+  "textures": {
+    "0": "landkreis_rinken:block/fingerabdruckgerat",
+    "particle": "landkreis_rinken:item/fingerabdruckgerat"
+  }
+}

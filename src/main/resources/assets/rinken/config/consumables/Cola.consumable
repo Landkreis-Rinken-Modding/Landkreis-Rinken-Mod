@@ -1,0 +1,15 @@
+{
+    "ID": "cola",
+    "Addon": "yourpack",
+    "Name": "YourPack's Cola",
+    "Description": [
+        "&oRefreshing!",
+        "item.yourpack:cola.desc"
+    ],
+    "HealAmount": 2,
+    "Saturation": 0.4,
+    "UseDuration": 20,
+    "WolfFood": false,
+    "Drinkable": true,
+    "AlwaysEdible": true
+}

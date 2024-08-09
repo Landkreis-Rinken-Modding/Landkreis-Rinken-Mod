@@ -1,0 +1,52 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="landkreis_rinken"
+version="1.0.0"
+displayName="Landkreis Rinken"
+displayURL="https://mcreator.net"
+credits="Wurde mit MCreator gemacht! - https://mcreator.net/about"
+authors="Admin, MCreator"
+description="Fügt Sachen für Roleplay hinzu auf dem Server Landkreis-Rinken"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.landkreis_rinken]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="AFTER"
+    side="BOTH"
+
+
+[[dependencies.landkreis_rinken]]
+    modId="curios_api"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.landkreis_rinken]]
+    modId="create"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.landkreis_rinken]]
+    modId="farmers_delight"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.landkreis_rinken]]
+    modId="jei"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

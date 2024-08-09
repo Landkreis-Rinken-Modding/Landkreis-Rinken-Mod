@@ -1,0 +1,359 @@
+{
+  "mod_elements": [
+    {
+      "name": "Spindblock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spindblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/landkreis_rinken/models/item/spindblock.json",
+          "src/main/java/net/lkr/block/entity/SpindblockBlockEntity.java",
+          "src/main/resources/data/landkreis_rinken/loot_tables/blocks/spindblock.json",
+          "src/main/resources/assets/landkreis_rinken/blockstates/spindblock.json",
+          "src/main/resources/assets/landkreis_rinken/models/block/spindblock.json",
+          "src/main/java/net/lkr/block/SpindblockBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Spind",
+      "type": "blockstates",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spind",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/landkreis_rinken/models/block/spind_blockstate_0.json"
+        ]
+      }
+    },
+    {
+      "name": "Spindgui",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spindgui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/lkr/client/gui/SpindguiScreen.java",
+          "src/main/java/net/lkr/world/inventory/SpindguiMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "SpindblockRedstoneAn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spindblock_redstone_an",
+      "metadata": {
+        "files": [
+          "src/main/java/net/lkr/procedures/SpindblockRedstoneAnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SpindblockRedstoneAus",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spindblock_redstone_aus",
+      "metadata": {
+        "files": [
+          "src/main/java/net/lkr/procedures/SpindblockRedstoneAusProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FLeggins",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f_leggins",
+      "metadata": {
+        "files": [
+          "src/main/java/net/lkr/item/FLegginsItem.java",
+          "src/main/resources/assets/landkreis_rinken/models/item/f_leggins_leggings.json",
+          "src/main/resources/assets/landkreis_rinken/models/item/f_leggins_chestplate.json"
+        ]
+      },
+      "path": "~/Feuerwehrman Sam"
+    },
+    {
+      "name": "Passport",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "passporteditor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/lkr/item/inventory/PassportInventoryCapability.java",
+          "src/main/java/net/lkr/item/PassportItem.java",
+          "src/main/resources/assets/landkreis_rinken/models/item/passporteditor.json"
+        ]
+      },
+      "path": "~/ZiviSysteme"
+    },
+    {
+      "name": "Passportfilled",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "passport",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/landkreis_rinken/models/item/passport.json",
+          "src/main/java/net/lkr/item/inventory/PassportfilledInventoryCapability.java",
+          "src/main/java/net/lkr/item/PassportfilledItem.java"
+        ]
+      },
+      "path": "~/ZiviSysteme"
+    },
+    {
+      "name": "Fillpasport",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fillpasport",
+      "metadata": {
+        "files": [
+          "src/main/java/net/lkr/procedures/FillpasportProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "guistate",
+            "type": "map"
+          }
+        ]
+      },
+      "path": "~/ZiviSysteme"
+    },
+    {
+      "name": "CreatePassort",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "create_passort",
+      "metadata": {
+        "files": [
+          "src/main/java/net/lkr/network/CreatePassortButtonMessage.java",
+          "src/main/java/net/lkr/world/inventory/CreatePassortMenu.java",
+          "src/main/java/net/lkr/client/gui/CreatePassortScreen.java"
+        ]
+      },
+      "path": "~/ZiviSysteme"
+    },
+    {
+      "name": "PassportGui",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "passport_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/lkr/world/inventory/PassportGuiMenu.java",
+          "src/main/java/net/lkr/client/gui/PassportGuiScreen.java"
+        ]
+      },
+      "path": "~/ZiviSysteme"
+    },
+    {
+      "name": "PassportGuiWennDasGUIGeoffnetWird",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "name_entry_field",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/lkr/procedures/PassportGuiWennDasGUIGeoffnetWirdProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/ZiviSysteme"
+    },
+    {
+      "name": "FME",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fme",
+      "metadata": {
+        "files": [
+          "src/main/java/net/lkr/client/gui/FMEScreen.java",
+          "src/main/java/net/lkr/world/inventory/FMEMenu.java"
+        ]
+      },
+      "path": "~/Feuerwehrman Sam"
+    },
+    {
+      "name": "FmeOpen",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fme_open",
+      "metadata": {
+        "files": [
+          "src/main/java/net/lkr/procedures/FmeOpenProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Feuerwehrman Sam"
+    },
+    {
+      "name": "FeFME",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fe_fme",
+      "metadata": {
+        "files": [
+          "src/main/java/net/lkr/command/FeFMECommand.java"
+        ]
+      },
+      "path": "~/Feuerwehrman Sam"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.landkreis_rinken.passport": "Ausweiß",
+      "gui.landkreis_rinken.spindgui.label_empty": "Spind",
+      "gui.landkreis_rinken.create_passort.button_erstellen": "Erstellen",
+      "gui.landkreis_rinken.create_passort.birth": "Geburtsdatum",
+      "gui.landkreis_rinken.create_passort.name": "Name der Person",
+      "gui.landkreis_rinken.create_passort.special": "Wie soll die Lore des Ausweises sein?",
+      "gui.landkreis_rinken.create_passort.item": "Wie soll das Item heißen?",
+      "gui.landkreis_rinken.passport_gui.label_empty1": "",
+      "block.landkreis_rinken.spindblock": "Spindblock",
+      "gui.landkreis_rinken.create_passort.Name": "Name der Person",
+      "item.landkreis_rinken.f_leggins_leggings": "Feuerwehruniform Hose",
+      "item.landkreis_rinken.passporteditor": "Passporteditor",
+      "gui.landkreis_rinken.passport_gui.label_name": "Name:",
+      "gui.landkreis_rinken.fme.label_einsatz": "EINSATZ",
+      "gui.landkreis_rinken.passport_gui.label_empty": "Name:",
+      "gui.landkreis_rinken.create_passort.tooltip_pass": "Pass",
+      "item.landkreis_rinken.f_leggins_chestplate": "Feuerwehruniform Torso",
+      "gui.landkreis_rinken.create_passort.label_passport_creator": "Ausweiß Ersteller"
+    },
+    "de_de": {
+      "item.landkreis_rinken.passport": "Passportfilled",
+      "gui.landkreis_rinken.spindgui.label_empty": "Spind",
+      "gui.landkreis_rinken.create_passort.button_erstellen": "Erstellen",
+      "gui.landkreis_rinken.create_passort.birth": "Geburtsdatum",
+      "gui.landkreis_rinken.create_passort.name": "Name der Person",
+      "gui.landkreis_rinken.create_passort.special": "Wie soll die Lore des Ausweises sein?",
+      "gui.landkreis_rinken.create_passort.item": "Wie soll das Item heißen?",
+      "gui.landkreis_rinken.passport_gui.label_empty1": "",
+      "block.landkreis_rinken.spindblock": "Spindblock",
+      "gui.landkreis_rinken.create_passort.Name": "Name der Person",
+      "item.landkreis_rinken.f_leggins_leggings": "Feuerwehruniform Hose",
+      "item.landkreis_rinken.passporteditor": "Passport",
+      "gui.landkreis_rinken.passport_gui.label_name": "Name:",
+      "gui.landkreis_rinken.fme.label_einsatz": "EINSATZ",
+      "gui.landkreis_rinken.passport_gui.label_empty": "",
+      "gui.landkreis_rinken.create_passort.tooltip_pass": "Pass",
+      "item.landkreis_rinken.f_leggins_chestplate": "Feuerwehruniform Torso",
+      "gui.landkreis_rinken.create_passort.label_passport_creator": "Passport Creator"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Feuerwehrman Sam",
+        "children": []
+      },
+      {
+        "name": "ZiviSysteme",
+        "children": []
+      },
+      {
+        "name": "Test zeug",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "landkreis_rinken",
+    "modName": "Landkreis Rinken",
+    "version": "1.0.0",
+    "description": "Fügt Sachen für Roleplay hinzu auf dem Server Landkreis-Rinken",
+    "author": "Admin, MCreator",
+    "websiteURL": "Work in Poggers",
+    "license": "All Rights Reserved",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "curios_api",
+      "create",
+      "farmers_delight",
+      "jei"
+    ],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Wurde mit MCreator gemacht! - https://mcreator.net/about",
+    "modElementsPackage": "net.lkr"
+  },
+  "mcreatorVersion": 202400232117
+}
