@@ -21,12 +21,15 @@ public class LandkreisRinkenModTabs {
 
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
-		if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
+		if (tabData.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
+			tabData.accept(LandkreisRinkenModBlocks.JAGERMEISTER_FLASCHE.get().asItem());
+		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
 			tabData.accept(LandkreisRinkenModItems.F_LEGGINS_CHESTPLATE.get());
 			tabData.accept(LandkreisRinkenModItems.F_LEGGINS_LEGGINGS.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(LandkreisRinkenModItems.PASSPORTEDITOR.get());
 			tabData.accept(LandkreisRinkenModItems.PASSPORT.get());
+			tabData.accept(LandkreisRinkenModItems.GEHHILFE.get());
 		}
 	}
 }

@@ -284,6 +284,39 @@
           "src/main/resources/assets/landkreis_rinken/models/block/jagermeister_flasche.json"
         ]
       }
+    },
+    {
+      "name": "Gehhilfe",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gehhilfe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/landkreis_rinken/models/item/gehhilfe.json",
+          "src/main/java/net/lkr/item/GehhilfeItem.java"
+        ]
+      },
+      "path": "~/MC stuff"
+    },
+    {
+      "name": "GehhilfeItemInHandTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gehhilfe_item_in_hand_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/lkr/procedures/GehhilfeItemInHandTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/MC stuff"
     }
   ],
   "variable_elements": [],
@@ -298,6 +331,7 @@
       "gui.landkreis_rinken.create_passort.birth": "Geburtsdatum",
       "gui.landkreis_rinken.create_passort.name": "Name der Person",
       "gui.landkreis_rinken.create_passort.special": "Wie soll die Lore des Ausweises sein?",
+      "item.landkreis_rinken.gehhilfe": "Gehhilfe",
       "gui.landkreis_rinken.create_passort.item": "Wie soll das Item heißen?",
       "gui.landkreis_rinken.passport_gui.label_empty1": "",
       "block.landkreis_rinken.spindblock": "Spindblock",
@@ -319,6 +353,7 @@
       "gui.landkreis_rinken.create_passort.birth": "Geburtsdatum",
       "gui.landkreis_rinken.create_passort.name": "Name der Person",
       "gui.landkreis_rinken.create_passort.special": "Wie soll die Lore des Ausweises sein?",
+      "item.landkreis_rinken.gehhilfe": "Gehhilfe",
       "gui.landkreis_rinken.create_passort.item": "Wie soll das Item heißen?",
       "gui.landkreis_rinken.passport_gui.label_empty1": "",
       "block.landkreis_rinken.spindblock": "Spindblock",
