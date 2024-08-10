@@ -14,7 +14,6 @@ import net.minecraft.world.item.BlockItem;
 
 import net.lkr.item.PassportfilledItem;
 import net.lkr.item.PassportItem;
-import net.lkr.item.GithubSyncItem;
 import net.lkr.item.FLegginsItem;
 import net.lkr.LandkreisRinkenMod;
 
@@ -25,7 +24,7 @@ public class LandkreisRinkenModItems {
 	public static final RegistryObject<Item> F_LEGGINS_LEGGINGS = REGISTRY.register("f_leggins_leggings", () -> new FLegginsItem.Leggings());
 	public static final RegistryObject<Item> PASSPORTEDITOR = REGISTRY.register("passporteditor", () -> new PassportItem());
 	public static final RegistryObject<Item> PASSPORT = REGISTRY.register("passport", () -> new PassportfilledItem());
-	public static final RegistryObject<Item> GITHUB_SYNC = REGISTRY.register("github_sync", () -> new GithubSyncItem());
+	public static final RegistryObject<Item> JAGERMEISTER_FLASCHE = block(LandkreisRinkenModBlocks.JAGERMEISTER_FLASCHE);
 
 	// Start of user code block custom items
 	// End of user code block custom items

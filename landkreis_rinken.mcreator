@@ -270,15 +270,18 @@
       "path": "~/Feuerwehrman Sam"
     },
     {
-      "name": "GithubSync",
-      "type": "item",
+      "name": "JagermeisterFlasche",
+      "type": "block",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "github_sync",
+      "registry_name": "jagermeister_flasche",
       "metadata": {
         "files": [
-          "src/main/java/net/lkr/item/GithubSyncItem.java",
-          "src/main/resources/assets/landkreis_rinken/models/item/github_sync.json"
+          "src/main/resources/assets/landkreis_rinken/blockstates/jagermeister_flasche.json",
+          "src/main/resources/data/landkreis_rinken/loot_tables/blocks/jagermeister_flasche.json",
+          "src/main/resources/assets/landkreis_rinken/models/item/jagermeister_flasche.json",
+          "src/main/java/net/lkr/block/JagermeisterFlascheBlock.java",
+          "src/main/resources/assets/landkreis_rinken/models/block/jagermeister_flasche.json"
         ]
       }
     }
@@ -289,7 +292,6 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "item.landkreis_rinken.github_sync": "Github Sync",
       "item.landkreis_rinken.passport": "Ausweiß",
       "gui.landkreis_rinken.spindgui.label_empty": "Spind",
       "gui.landkreis_rinken.create_passort.button_erstellen": "Erstellen",
@@ -301,6 +303,7 @@
       "block.landkreis_rinken.spindblock": "Spindblock",
       "gui.landkreis_rinken.create_passort.Name": "Name der Person",
       "item.landkreis_rinken.f_leggins_leggings": "Feuerwehruniform Hose",
+      "block.landkreis_rinken.jagermeister_flasche": "Jagermeister Flasche",
       "item.landkreis_rinken.passporteditor": "Passporteditor",
       "gui.landkreis_rinken.passport_gui.label_name": "Name:",
       "gui.landkreis_rinken.fme.label_einsatz": "EINSATZ",
@@ -310,7 +313,6 @@
       "gui.landkreis_rinken.create_passort.label_passport_creator": "Ausweiß Ersteller"
     },
     "de_de": {
-      "item.landkreis_rinken.github_sync": "Github Sync",
       "item.landkreis_rinken.passport": "Passportfilled",
       "gui.landkreis_rinken.spindgui.label_empty": "Spind",
       "gui.landkreis_rinken.create_passort.button_erstellen": "Erstellen",
@@ -322,6 +324,7 @@
       "block.landkreis_rinken.spindblock": "Spindblock",
       "gui.landkreis_rinken.create_passort.Name": "Name der Person",
       "item.landkreis_rinken.f_leggins_leggings": "Feuerwehruniform Hose",
+      "block.landkreis_rinken.jagermeister_flasche": "Jagermeister Flasche",
       "item.landkreis_rinken.passporteditor": "Passport",
       "gui.landkreis_rinken.passport_gui.label_name": "Name:",
       "gui.landkreis_rinken.fme.label_einsatz": "EINSATZ",
