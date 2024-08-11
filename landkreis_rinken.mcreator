@@ -15,7 +15,8 @@
           "src/main/resources/assets/landkreis_rinken/models/block/spindblock.json",
           "src/main/java/net/lkr/block/SpindblockBlock.java"
         ]
-      }
+      },
+      "path": "~/Deko"
     },
     {
       "name": "Spind",
@@ -27,7 +28,8 @@
         "files": [
           "src/main/resources/assets/landkreis_rinken/models/block/spind_blockstate_0.json"
         ]
-      }
+      },
+      "path": "~/Deko"
     },
     {
       "name": "Spindgui",
@@ -40,7 +42,8 @@
           "src/main/java/net/lkr/client/gui/SpindguiScreen.java",
           "src/main/java/net/lkr/world/inventory/SpindguiMenu.java"
         ]
-      }
+      },
+      "path": "~/Deko"
     },
     {
       "name": "SpindblockRedstoneAn",
@@ -70,7 +73,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Deko"
     },
     {
       "name": "SpindblockRedstoneAus",
@@ -100,7 +104,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Deko"
     },
     {
       "name": "FLeggins",
@@ -110,9 +115,9 @@
       "registry_name": "f_leggins",
       "metadata": {
         "files": [
-          "src/main/java/net/lkr/item/FLegginsItem.java",
+          "src/main/resources/assets/landkreis_rinken/models/item/f_leggins_chestplate.json",
           "src/main/resources/assets/landkreis_rinken/models/item/f_leggins_leggings.json",
-          "src/main/resources/assets/landkreis_rinken/models/item/f_leggins_chestplate.json"
+          "src/main/java/net/lkr/item/FLegginsItem.java"
         ]
       },
       "path": "~/Feuerwehrman Sam"
@@ -125,8 +130,8 @@
       "registry_name": "passporteditor",
       "metadata": {
         "files": [
-          "src/main/java/net/lkr/item/inventory/PassportInventoryCapability.java",
           "src/main/java/net/lkr/item/PassportItem.java",
+          "src/main/java/net/lkr/item/inventory/PassportInventoryCapability.java",
           "src/main/resources/assets/landkreis_rinken/models/item/passporteditor.json"
         ]
       },
@@ -140,9 +145,9 @@
       "registry_name": "passport",
       "metadata": {
         "files": [
+          "src/main/java/net/lkr/item/PassportfilledItem.java",
           "src/main/resources/assets/landkreis_rinken/models/item/passport.json",
-          "src/main/java/net/lkr/item/inventory/PassportfilledInventoryCapability.java",
-          "src/main/java/net/lkr/item/PassportfilledItem.java"
+          "src/main/java/net/lkr/item/inventory/PassportfilledInventoryCapability.java"
         ]
       },
       "path": "~/ZiviSysteme"
@@ -398,6 +403,10 @@
       },
       {
         "name": "MC stuff",
+        "children": []
+      },
+      {
+        "name": "Deko",
         "children": []
       }
     ]
