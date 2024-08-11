@@ -317,6 +317,16 @@
         ]
       },
       "path": "~/MC stuff"
+    },
+    {
+      "name": "LKR",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lkr",
+      "metadata": {
+        "files": []
+      }
     }
   ],
   "variable_elements": [],
@@ -335,6 +345,7 @@
       "gui.landkreis_rinken.create_passort.item": "Wie soll das Item heißen?",
       "gui.landkreis_rinken.passport_gui.label_empty1": "",
       "block.landkreis_rinken.spindblock": "Spindblock",
+      "item_group.landkreis_rinken.lkr": "LKR",
       "gui.landkreis_rinken.create_passort.Name": "Name der Person",
       "item.landkreis_rinken.f_leggins_leggings": "Feuerwehruniform Hose",
       "block.landkreis_rinken.jagermeister_flasche": "Jagermeister Flasche",
@@ -357,6 +368,7 @@
       "gui.landkreis_rinken.create_passort.item": "Wie soll das Item heißen?",
       "gui.landkreis_rinken.passport_gui.label_empty1": "",
       "block.landkreis_rinken.spindblock": "Spindblock",
+      "item_group.landkreis_rinken.lkr": "LKR",
       "gui.landkreis_rinken.create_passort.Name": "Name der Person",
       "item.landkreis_rinken.f_leggins_leggings": "Feuerwehruniform Hose",
       "block.landkreis_rinken.jagermeister_flasche": "Jagermeister Flasche",
