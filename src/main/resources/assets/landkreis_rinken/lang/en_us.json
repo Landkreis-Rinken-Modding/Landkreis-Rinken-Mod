@@ -1,5 +1,4 @@
 {
-  "item.landkreis_rinken.github_sync": "Github Sync",
   "item.landkreis_rinken.passport": "Ausweiß",
   "gui.landkreis_rinken.spindgui.label_empty": "Spind",
   "gui.landkreis_rinken.create_passort.button_erstellen": "Erstellen",
@@ -11,6 +10,7 @@
   "block.landkreis_rinken.spindblock": "Spindblock",
   "gui.landkreis_rinken.create_passort.Name": "Name der Person",
   "item.landkreis_rinken.f_leggins_leggings": "Feuerwehruniform Hose",
+  "block.landkreis_rinken.jagermeister_flasche": "Jagermeister Flasche",
   "item.landkreis_rinken.passporteditor": "Passporteditor",
   "gui.landkreis_rinken.passport_gui.label_name": "Name:",
   "gui.landkreis_rinken.fme.label_einsatz": "EINSATZ",

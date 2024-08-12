@@ -283,7 +283,8 @@
           "src/main/java/net/lkr/block/JagermeisterFlascheBlock.java",
           "src/main/resources/assets/landkreis_rinken/models/block/jagermeister_flasche.json"
         ]
-      }
+      },
+      "path": "~/Essen_Trinken/Alk"
     }
   ],
   "variable_elements": [],
@@ -351,6 +352,19 @@
       },
       {
         "name": "MC stuff",
+        "children": []
+      },
+      {
+        "name": "Essen_Trinken",
+        "children": [
+          {
+            "name": "Alk",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "admin zeug",
         "children": []
       }
     ]
