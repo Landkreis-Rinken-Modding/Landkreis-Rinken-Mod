@@ -4,10 +4,10 @@
   "definition": {
     "renderType": 1,
     "texture": "fingerabdruckgerat",
-    "customModelName": "fingerabdruck_gerat:default",
+    "customModelName": "gehhilfe:default",
     "customProperties": {},
     "states": [],
-    "name": "Passporteditor",
+    "name": "Gehhilfe",
     "rarity": "COMMON",
     "creativeTabs": [
       {
@@ -26,17 +26,20 @@
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
-    "enableMeleeDamage": false,
-    "damageVsEntity": 0.0,
+    "enableMeleeDamage": true,
+    "damageVsEntity": 0.6,
     "specialInformation": {
       "fixedValue": []
     },
     "glowCondition": {
       "fixedValue": false
     },
-    "guiBoundTo": "CreatePassort",
-    "inventorySize": 1,
-    "inventoryStackSize": 1,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "onItemInUseTick": {
+      "name": "GehhilfeItemInHandTick"
+    },
     "enableRanged": false,
     "shootConstantly": false,
     "rangedItemChargesPower": false,

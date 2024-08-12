@@ -1,0 +1,12 @@
+package net.lkr.procedures;
+
+import net.minecraftforge.eventbus.api.Event;
+
+public class GehhilfeItemInHandTickProcedure {
+	public static void execute(Entity entity) {
+		if (entity == null)
+			return;
+		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
+			_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 20, 1));
+	}
+}

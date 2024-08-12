@@ -12,7 +12,7 @@
     "textureBoots": "",
     "creativeTabs": [
       {
-        "value": "COMBAT"
+        "value": "CUSTOM:LKR"
       }
     ],
     "armorTextureFile": "farmor_",
@@ -60,6 +60,18 @@
     "bodyImmuneToFire": true,
     "leggingsImmuneToFire": true,
     "bootsImmuneToFire": false,
+    "helmetGlowCondition": {
+      "fixedValue": false
+    },
+    "bodyGlowCondition": {
+      "fixedValue": false
+    },
+    "leggingsGlowCondition": {
+      "fixedValue": false
+    },
+    "bootsGlowCondition": {
+      "fixedValue": false
+    },
     "helmetPiglinNeutral": {
       "fixedValue": false
     },

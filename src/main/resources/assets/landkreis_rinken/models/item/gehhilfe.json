@@ -1,0 +1,7 @@
+{
+  "parent": "landkreis_rinken:custom/gehhilfe",
+  "textures": {
+    "0": "landkreis_rinken:block/gehhilfe",
+    "particle": "landkreis_rinken:item/fingerabdruckgerat"
+  }
+}
