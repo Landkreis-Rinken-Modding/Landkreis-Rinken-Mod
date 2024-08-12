@@ -16,6 +16,8 @@ import net.lkr.item.PassportfilledItem;
 import net.lkr.item.PassportItem;
 import net.lkr.item.GehhilfeItem;
 import net.lkr.item.FLegginsItem;
+import net.lkr.item.BanHammerItem;
+import net.lkr.item.AdminTabItemItem;
 import net.lkr.LandkreisRinkenMod;
 
 public class LandkreisRinkenModItems {
@@ -27,6 +29,8 @@ public class LandkreisRinkenModItems {
 	public static final RegistryObject<Item> PASSPORT = REGISTRY.register("passport", () -> new PassportfilledItem());
 	public static final RegistryObject<Item> JAGERMEISTER_FLASCHE = block(LandkreisRinkenModBlocks.JAGERMEISTER_FLASCHE);
 	public static final RegistryObject<Item> GEHHILFE = REGISTRY.register("gehhilfe", () -> new GehhilfeItem());
+	public static final RegistryObject<Item> BAN_HAMMER = REGISTRY.register("ban_hammer", () -> new BanHammerItem());
+	public static final RegistryObject<Item> ADMIN_TAB_ITEM = REGISTRY.register("admin_tab_item", () -> new AdminTabItemItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

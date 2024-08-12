@@ -8,12 +8,12 @@
       "registry_name": "spindblock",
       "metadata": {
         "files": [
-          "src/main/resources/assets/landkreis_rinken/models/item/spindblock.json",
-          "src/main/java/net/lkr/block/entity/SpindblockBlockEntity.java",
-          "src/main/resources/data/landkreis_rinken/loot_tables/blocks/spindblock.json",
           "src/main/resources/assets/landkreis_rinken/blockstates/spindblock.json",
           "src/main/resources/assets/landkreis_rinken/models/block/spindblock.json",
-          "src/main/java/net/lkr/block/SpindblockBlock.java"
+          "src/main/resources/data/landkreis_rinken/loot_tables/blocks/spindblock.json",
+          "src/main/java/net/lkr/block/SpindblockBlock.java",
+          "src/main/resources/assets/landkreis_rinken/models/item/spindblock.json",
+          "src/main/java/net/lkr/block/entity/SpindblockBlockEntity.java"
         ]
       }
     },
@@ -37,8 +37,8 @@
       "registry_name": "spindgui",
       "metadata": {
         "files": [
-          "src/main/java/net/lkr/client/gui/SpindguiScreen.java",
-          "src/main/java/net/lkr/world/inventory/SpindguiMenu.java"
+          "src/main/java/net/lkr/world/inventory/SpindguiMenu.java",
+          "src/main/java/net/lkr/client/gui/SpindguiScreen.java"
         ]
       }
     },
@@ -110,9 +110,9 @@
       "registry_name": "f_leggins",
       "metadata": {
         "files": [
-          "src/main/java/net/lkr/item/FLegginsItem.java",
+          "src/main/resources/assets/landkreis_rinken/models/item/f_leggins_chestplate.json",
           "src/main/resources/assets/landkreis_rinken/models/item/f_leggins_leggings.json",
-          "src/main/resources/assets/landkreis_rinken/models/item/f_leggins_chestplate.json"
+          "src/main/java/net/lkr/item/FLegginsItem.java"
         ]
       },
       "path": "~/Feuerwehrman Sam"
@@ -125,9 +125,9 @@
       "registry_name": "passporteditor",
       "metadata": {
         "files": [
-          "src/main/java/net/lkr/item/inventory/PassportInventoryCapability.java",
+          "src/main/resources/assets/landkreis_rinken/models/item/passporteditor.json",
           "src/main/java/net/lkr/item/PassportItem.java",
-          "src/main/resources/assets/landkreis_rinken/models/item/passporteditor.json"
+          "src/main/java/net/lkr/item/inventory/PassportInventoryCapability.java"
         ]
       },
       "path": "~/ZiviSysteme"
@@ -140,9 +140,9 @@
       "registry_name": "passport",
       "metadata": {
         "files": [
-          "src/main/resources/assets/landkreis_rinken/models/item/passport.json",
           "src/main/java/net/lkr/item/inventory/PassportfilledInventoryCapability.java",
-          "src/main/java/net/lkr/item/PassportfilledItem.java"
+          "src/main/java/net/lkr/item/PassportfilledItem.java",
+          "src/main/resources/assets/landkreis_rinken/models/item/passport.json"
         ]
       },
       "path": "~/ZiviSysteme"
@@ -193,8 +193,8 @@
       "registry_name": "passport_gui",
       "metadata": {
         "files": [
-          "src/main/java/net/lkr/world/inventory/PassportGuiMenu.java",
-          "src/main/java/net/lkr/client/gui/PassportGuiScreen.java"
+          "src/main/java/net/lkr/client/gui/PassportGuiScreen.java",
+          "src/main/java/net/lkr/world/inventory/PassportGuiMenu.java"
         ]
       },
       "path": "~/ZiviSysteme"
@@ -278,8 +278,8 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/landkreis_rinken/blockstates/jagermeister_flasche.json",
-          "src/main/resources/data/landkreis_rinken/loot_tables/blocks/jagermeister_flasche.json",
           "src/main/resources/assets/landkreis_rinken/models/item/jagermeister_flasche.json",
+          "src/main/resources/data/landkreis_rinken/loot_tables/blocks/jagermeister_flasche.json",
           "src/main/java/net/lkr/block/JagermeisterFlascheBlock.java",
           "src/main/resources/assets/landkreis_rinken/models/block/jagermeister_flasche.json"
         ]
@@ -327,57 +327,172 @@
         ]
       },
       "path": "~/MC stuff"
+    },
+    {
+      "name": "BanHammerWennLebewesenMitWerkzeugGeschlagenWird",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ban_hammer_wenn_lebewesen_mit_werkzeug_geschlagen_wird",
+      "metadata": {
+        "files": [
+          "src/main/java/net/lkr/procedures/BanHammerWennLebewesenMitWerkzeugGeschlagenWirdProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/admin zeug"
+    },
+    {
+      "name": "BanHammer",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ban_hammer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/lkr/item/BanHammerItem.java",
+          "src/main/resources/assets/landkreis_rinken/models/item/ban_hammer.json"
+        ]
+      },
+      "path": "~/admin zeug"
+    },
+    {
+      "name": "AdminTabItem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "admin_tab_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/lkr/item/AdminTabItemItem.java",
+          "src/main/resources/assets/landkreis_rinken/models/item/admin_tab_item.json"
+        ]
+      },
+      "path": "~/admin zeug"
+    },
+    {
+      "name": "AdminTab",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "admin_tab",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/admin zeug"
+    },
+    {
+      "name": "AdminModusAktivieren",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "admin_modus_aktivieren",
+      "metadata": {
+        "files": [
+          "src/main/java/net/lkr/procedures/AdminModusAktivierenProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/admin zeug"
+    },
+    {
+      "name": "AdminMode",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "admin_mode",
+      "metadata": {
+        "files": [
+          "src/main/java/net/lkr/command/AdminModeCommand.java"
+        ]
+      },
+      "path": "~/admin zeug"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
-  "tag_elements": {},
+  "tag_elements": {
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:BanHammer"
+    ]
+  },
   "tab_element_order": {},
   "language_map": {
     "en_us": {
       "item.landkreis_rinken.passport": "Ausweiß",
-      "gui.landkreis_rinken.spindgui.label_empty": "Spind",
       "gui.landkreis_rinken.create_passort.button_erstellen": "Erstellen",
-      "gui.landkreis_rinken.create_passort.birth": "Geburtsdatum",
       "gui.landkreis_rinken.create_passort.name": "Name der Person",
-      "gui.landkreis_rinken.create_passort.special": "Wie soll die Lore des Ausweises sein?",
-      "item.landkreis_rinken.gehhilfe": "Gehhilfe",
       "gui.landkreis_rinken.create_passort.item": "Wie soll das Item heißen?",
       "gui.landkreis_rinken.passport_gui.label_empty1": "",
       "block.landkreis_rinken.spindblock": "Spindblock",
-      "item_group.landkreis_rinken.lkr": "LKR",
       "gui.landkreis_rinken.create_passort.Name": "Name der Person",
-      "item.landkreis_rinken.f_leggins_leggings": "Feuerwehruniform Hose",
       "block.landkreis_rinken.jagermeister_flasche": "Jagermeister Flasche",
-      "item.landkreis_rinken.passporteditor": "Passporteditor",
       "gui.landkreis_rinken.passport_gui.label_name": "Name:",
+      "item.landkreis_rinken.passporteditor": "Passporteditor",
+      "item_group.landkreis_rinken.admin_tab": "Admin Tab",
+      "item.landkreis_rinken.f_leggins_chestplate": "Feuerwehruniform Torso",
+      "gui.landkreis_rinken.spindgui.label_empty": "Spind",
+      "gui.landkreis_rinken.create_passort.birth": "Geburtsdatum",
+      "gui.landkreis_rinken.create_passort.special": "Wie soll die Lore des Ausweises sein?",
+      "item.landkreis_rinken.gehhilfe": "Gehhilfe",
+      "item.landkreis_rinken.admin_tab_item": "Admin Tab Item",
+      "item.landkreis_rinken.ban_hammer": "Ban Hammer",
+      "item_group.landkreis_rinken.lkr": "LKR",
+      "item.landkreis_rinken.f_leggins_leggings": "Feuerwehruniform Hose",
       "gui.landkreis_rinken.fme.label_einsatz": "EINSATZ",
       "gui.landkreis_rinken.passport_gui.label_empty": "Name:",
       "gui.landkreis_rinken.create_passort.tooltip_pass": "Pass",
-      "item.landkreis_rinken.f_leggins_chestplate": "Feuerwehruniform Torso",
       "gui.landkreis_rinken.create_passort.label_passport_creator": "Ausweiß Ersteller"
     },
     "de_de": {
       "item.landkreis_rinken.passport": "Passportfilled",
-      "gui.landkreis_rinken.spindgui.label_empty": "Spind",
       "gui.landkreis_rinken.create_passort.button_erstellen": "Erstellen",
-      "gui.landkreis_rinken.create_passort.birth": "Geburtsdatum",
       "gui.landkreis_rinken.create_passort.name": "Name der Person",
-      "gui.landkreis_rinken.create_passort.special": "Wie soll die Lore des Ausweises sein?",
-      "item.landkreis_rinken.gehhilfe": "Gehhilfe",
       "gui.landkreis_rinken.create_passort.item": "Wie soll das Item heißen?",
       "gui.landkreis_rinken.passport_gui.label_empty1": "",
       "block.landkreis_rinken.spindblock": "Spindblock",
-      "item_group.landkreis_rinken.lkr": "LKR",
       "gui.landkreis_rinken.create_passort.Name": "Name der Person",
-      "item.landkreis_rinken.f_leggins_leggings": "Feuerwehruniform Hose",
       "block.landkreis_rinken.jagermeister_flasche": "Jagermeister Flasche",
-      "item.landkreis_rinken.passporteditor": "Passport",
       "gui.landkreis_rinken.passport_gui.label_name": "Name:",
+      "item.landkreis_rinken.passporteditor": "Passport",
+      "item_group.landkreis_rinken.admin_tab": "Admin Tab",
+      "item.landkreis_rinken.f_leggins_chestplate": "Feuerwehruniform Torso",
+      "gui.landkreis_rinken.spindgui.label_empty": "Spind",
+      "gui.landkreis_rinken.create_passort.birth": "Geburtsdatum",
+      "gui.landkreis_rinken.create_passort.special": "Wie soll die Lore des Ausweises sein?",
+      "item.landkreis_rinken.gehhilfe": "Gehhilfe",
+      "item.landkreis_rinken.admin_tab_item": "Admin Tab Item",
+      "item.landkreis_rinken.ban_hammer": "Ban Hammer",
+      "item_group.landkreis_rinken.lkr": "LKR",
+      "item.landkreis_rinken.f_leggins_leggings": "Feuerwehruniform Hose",
       "gui.landkreis_rinken.fme.label_einsatz": "EINSATZ",
       "gui.landkreis_rinken.passport_gui.label_empty": "",
       "gui.landkreis_rinken.create_passort.tooltip_pass": "Pass",
-      "item.landkreis_rinken.f_leggins_chestplate": "Feuerwehruniform Torso",
       "gui.landkreis_rinken.create_passort.label_passport_creator": "Passport Creator"
     }
   },

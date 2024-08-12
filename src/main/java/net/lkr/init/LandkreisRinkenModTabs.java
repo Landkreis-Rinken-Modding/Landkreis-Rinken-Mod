@@ -21,6 +21,12 @@ import net.lkr.LandkreisRinkenMod;
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class LandkreisRinkenModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, LandkreisRinkenMod.MODID);
+	public static final RegistryObject<CreativeModeTab> ADMIN_TAB = REGISTRY.register("admin_tab",
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.landkreis_rinken.admin_tab")).icon(() -> new ItemStack(LandkreisRinkenModItems.ADMIN_TAB_ITEM.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(LandkreisRinkenModItems.BAN_HAMMER.get());
+			})
+
+					.build());
 	public static final RegistryObject<CreativeModeTab> LKR = REGISTRY.register("lkr",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.landkreis_rinken.lkr")).icon(() -> new ItemStack(LandkreisRinkenModItems.F_LEGGINS_CHESTPLATE.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(LandkreisRinkenModItems.F_LEGGINS_CHESTPLATE.get());

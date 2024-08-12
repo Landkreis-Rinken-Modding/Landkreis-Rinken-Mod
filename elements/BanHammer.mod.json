@@ -1,0 +1,42 @@
+{
+  "_fv": 66,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 1,
+    "blockingRenderType": 0,
+    "texture": "texture_ban_hammer",
+    "customModelName": "ban_hammer:default",
+    "blockingModelName": "Normal blocking",
+    "name": "Ban Hammer",
+    "specialInformation": {
+      "fixedValue": [
+        "NEIMALS AN SPIELER GEBEN",
+        "BANNT BEIM KILLEN LEUTE VOM SERVER",
+        "ONE HIT KILL"
+      ]
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:AdminTab"
+      }
+    ],
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
+    "enchantability": 2,
+    "damageVsEntity": 4.0,
+    "usageCount": 100,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [],
+    "immuneToFire": false,
+    "blockDropsTier": "WOOD",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "BanHammerWennLebewesenMitWerkzeugGeschlagenWird"
+    }
+  }
+}

@@ -1,6 +1,9 @@
 package net.lkr.procedures;
 
-import net.minecraftforge.eventbus.api.Event;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.world.effect.MobEffects;
+import net.minecraft.world.effect.MobEffectInstance;
 
 public class GehhilfeItemInHandTickProcedure {
 	public static void execute(Entity entity) {

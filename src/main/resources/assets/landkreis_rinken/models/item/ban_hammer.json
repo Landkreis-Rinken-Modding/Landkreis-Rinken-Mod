@@ -1,0 +1,7 @@
+{
+  "parent": "landkreis_rinken:custom/ban_hammer",
+  "textures": {
+    "0": "landkreis_rinken:block/texture_ban_hammer",
+    "particle": "landkreis_rinken:item/texture_ban_hammer"
+  }
+}
