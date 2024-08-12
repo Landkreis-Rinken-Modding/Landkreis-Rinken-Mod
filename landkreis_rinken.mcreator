@@ -15,7 +15,8 @@
           "src/main/resources/assets/landkreis_rinken/models/item/spindblock.json",
           "src/main/java/net/lkr/block/entity/SpindblockBlockEntity.java"
         ]
-      }
+      },
+      "path": "~/Deko"
     },
     {
       "name": "Spind",
@@ -27,7 +28,8 @@
         "files": [
           "src/main/resources/assets/landkreis_rinken/models/block/spind_blockstate_0.json"
         ]
-      }
+      },
+      "path": "~/Deko"
     },
     {
       "name": "Spindgui",
@@ -40,7 +42,8 @@
           "src/main/java/net/lkr/world/inventory/SpindguiMenu.java",
           "src/main/java/net/lkr/client/gui/SpindguiScreen.java"
         ]
-      }
+      },
+      "path": "~/Deko"
     },
     {
       "name": "SpindblockRedstoneAn",
@@ -70,7 +73,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Deko"
     },
     {
       "name": "SpindblockRedstoneAus",
@@ -100,7 +104,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Deko"
     },
     {
       "name": "FLeggins",
@@ -283,7 +288,8 @@
           "src/main/java/net/lkr/block/JagermeisterFlascheBlock.java",
           "src/main/resources/assets/landkreis_rinken/models/block/jagermeister_flasche.json"
         ]
-      }
+      },
+      "path": "~/Deko"
     },
     {
       "name": "LKR",
@@ -452,9 +458,9 @@
       "block.landkreis_rinken.spindblock": "Spindblock",
       "gui.landkreis_rinken.create_passort.Name": "Name der Person",
       "block.landkreis_rinken.jagermeister_flasche": "Jagermeister Flasche",
-      "gui.landkreis_rinken.passport_gui.label_name": "Name:",
-      "item.landkreis_rinken.passporteditor": "Passporteditor",
       "item_group.landkreis_rinken.admin_tab": "Admin Tab",
+      "item.landkreis_rinken.passporteditor": "Passporteditor",
+      "gui.landkreis_rinken.passport_gui.label_name": "Name:",
       "item.landkreis_rinken.f_leggins_chestplate": "Feuerwehruniform Torso",
       "gui.landkreis_rinken.spindgui.label_empty": "Spind",
       "gui.landkreis_rinken.create_passort.birth": "Geburtsdatum",
@@ -478,9 +484,9 @@
       "block.landkreis_rinken.spindblock": "Spindblock",
       "gui.landkreis_rinken.create_passort.Name": "Name der Person",
       "block.landkreis_rinken.jagermeister_flasche": "Jagermeister Flasche",
-      "gui.landkreis_rinken.passport_gui.label_name": "Name:",
-      "item.landkreis_rinken.passporteditor": "Passport",
       "item_group.landkreis_rinken.admin_tab": "Admin Tab",
+      "item.landkreis_rinken.passporteditor": "Passport",
+      "gui.landkreis_rinken.passport_gui.label_name": "Name:",
       "item.landkreis_rinken.f_leggins_chestplate": "Feuerwehruniform Torso",
       "gui.landkreis_rinken.spindgui.label_empty": "Spind",
       "gui.landkreis_rinken.create_passort.birth": "Geburtsdatum",
