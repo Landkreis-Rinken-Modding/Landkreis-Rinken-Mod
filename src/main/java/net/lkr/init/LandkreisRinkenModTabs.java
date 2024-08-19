@@ -34,6 +34,7 @@ public class LandkreisRinkenModTabs {
 				tabData.accept(LandkreisRinkenModItems.PASSPORTEDITOR.get());
 				tabData.accept(LandkreisRinkenModItems.PASSPORT.get());
 				tabData.accept(LandkreisRinkenModItems.GEHHILFE.get());
+				tabData.accept(LandkreisRinkenModItems.TABLETTEN.get());
 			})
 
 					.build());

@@ -1,0 +1,7 @@
+{
+  "parent": "landkreis_rinken:custom/tabletten",
+  "textures": {
+    "0": "landkreis_rinken:block/uhuz",
+    "particle": "landkreis_rinken:item/fwuniformtorsopng"
+  }
+}

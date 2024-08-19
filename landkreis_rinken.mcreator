@@ -438,6 +438,39 @@
         ]
       },
       "path": "~/admin zeug"
+    },
+    {
+      "name": "Tabletten",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tabletten",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/landkreis_rinken/models/item/tabletten.json",
+          "src/main/java/net/lkr/item/TablettenItem.java"
+        ]
+      },
+      "path": "~/MC stuff"
+    },
+    {
+      "name": "TablettenOnPlayerStoppedUsing",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tabletten_on_player_stopped_using",
+      "metadata": {
+        "files": [
+          "src/main/java/net/lkr/procedures/TablettenOnPlayerStoppedUsingProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/MC stuff"
     }
   ],
   "variable_elements": [],
@@ -458,10 +491,11 @@
       "block.landkreis_rinken.spindblock": "Spindblock",
       "gui.landkreis_rinken.create_passort.Name": "Name der Person",
       "block.landkreis_rinken.jagermeister_flasche": "Jagermeister Flasche",
-      "item_group.landkreis_rinken.admin_tab": "Admin Tab",
-      "item.landkreis_rinken.passporteditor": "Passporteditor",
       "gui.landkreis_rinken.passport_gui.label_name": "Name:",
+      "item.landkreis_rinken.passporteditor": "Passporteditor",
+      "item_group.landkreis_rinken.admin_tab": "Admin Tab",
       "item.landkreis_rinken.f_leggins_chestplate": "Feuerwehruniform Torso",
+      "item.landkreis_rinken.tabletten": "Tabletten",
       "gui.landkreis_rinken.spindgui.label_empty": "Spind",
       "gui.landkreis_rinken.create_passort.birth": "Geburtsdatum",
       "gui.landkreis_rinken.create_passort.special": "Wie soll die Lore des Ausweises sein?",
@@ -484,10 +518,11 @@
       "block.landkreis_rinken.spindblock": "Spindblock",
       "gui.landkreis_rinken.create_passort.Name": "Name der Person",
       "block.landkreis_rinken.jagermeister_flasche": "Jagermeister Flasche",
-      "item_group.landkreis_rinken.admin_tab": "Admin Tab",
-      "item.landkreis_rinken.passporteditor": "Passport",
       "gui.landkreis_rinken.passport_gui.label_name": "Name:",
+      "item.landkreis_rinken.passporteditor": "Passport",
+      "item_group.landkreis_rinken.admin_tab": "Admin Tab",
       "item.landkreis_rinken.f_leggins_chestplate": "Feuerwehruniform Torso",
+      "item.landkreis_rinken.tabletten": "Tabletten",
       "gui.landkreis_rinken.spindgui.label_empty": "Spind",
       "gui.landkreis_rinken.create_passort.birth": "Geburtsdatum",
       "gui.landkreis_rinken.create_passort.special": "Wie soll die Lore des Ausweises sein?",

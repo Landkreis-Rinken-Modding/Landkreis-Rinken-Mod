@@ -12,6 +12,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import net.lkr.item.TablettenItem;
 import net.lkr.item.PassportfilledItem;
 import net.lkr.item.PassportItem;
 import net.lkr.item.GehhilfeItem;
@@ -31,6 +32,7 @@ public class LandkreisRinkenModItems {
 	public static final RegistryObject<Item> GEHHILFE = REGISTRY.register("gehhilfe", () -> new GehhilfeItem());
 	public static final RegistryObject<Item> BAN_HAMMER = REGISTRY.register("ban_hammer", () -> new BanHammerItem());
 	public static final RegistryObject<Item> ADMIN_TAB_ITEM = REGISTRY.register("admin_tab_item", () -> new AdminTabItemItem());
+	public static final RegistryObject<Item> TABLETTEN = REGISTRY.register("tabletten", () -> new TablettenItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items
