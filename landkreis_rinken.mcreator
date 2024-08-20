@@ -471,6 +471,20 @@
         ]
       },
       "path": "~/MC stuff"
+    },
+    {
+      "name": "WesteMedic",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weste_medic",
+      "metadata": {
+        "files": [
+          "src/main/java/net/lkr/item/WesteMedicItem.java",
+          "src/main/resources/assets/landkreis_rinken/models/item/weste_medic_chestplate.json"
+        ]
+      },
+      "path": "~/MC stuff"
     }
   ],
   "variable_elements": [],
@@ -505,6 +519,7 @@
       "item_group.landkreis_rinken.lkr": "LKR",
       "item.landkreis_rinken.f_leggins_leggings": "Feuerwehruniform Hose",
       "gui.landkreis_rinken.fme.label_einsatz": "EINSATZ",
+      "item.landkreis_rinken.weste_medic_chestplate": "Weste Medic Chestplate",
       "gui.landkreis_rinken.passport_gui.label_empty": "Name:",
       "gui.landkreis_rinken.create_passort.tooltip_pass": "Pass",
       "gui.landkreis_rinken.create_passort.label_passport_creator": "Ausweiß Ersteller"
@@ -532,6 +547,7 @@
       "item_group.landkreis_rinken.lkr": "LKR",
       "item.landkreis_rinken.f_leggins_leggings": "Feuerwehruniform Hose",
       "gui.landkreis_rinken.fme.label_einsatz": "EINSATZ",
+      "item.landkreis_rinken.weste_medic_chestplate": "Weste Medic Chestplate",
       "gui.landkreis_rinken.passport_gui.label_empty": "",
       "gui.landkreis_rinken.create_passort.tooltip_pass": "Pass",
       "gui.landkreis_rinken.create_passort.label_passport_creator": "Passport Creator"

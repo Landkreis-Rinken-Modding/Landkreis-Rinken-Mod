@@ -21,6 +21,7 @@
   "item_group.landkreis_rinken.lkr": "LKR",
   "item.landkreis_rinken.f_leggins_leggings": "Feuerwehruniform Hose",
   "gui.landkreis_rinken.fme.label_einsatz": "EINSATZ",
+  "item.landkreis_rinken.weste_medic_chestplate": "Weste Medic Chestplate",
   "gui.landkreis_rinken.passport_gui.label_empty": "Name:",
   "gui.landkreis_rinken.create_passort.tooltip_pass": "Pass",
   "gui.landkreis_rinken.create_passort.label_passport_creator": "Ausweiß Ersteller"
