@@ -454,25 +454,6 @@
       "path": "~/MC stuff"
     },
     {
-      "name": "TablettenOnPlayerStoppedUsing",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tabletten_on_player_stopped_using",
-      "metadata": {
-        "files": [
-          "src/main/java/net/lkr/procedures/TablettenOnPlayerStoppedUsingProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/MC stuff"
-    },
-    {
       "name": "WesteMedic",
       "type": "armor",
       "compiles": true,
@@ -482,6 +463,25 @@
         "files": [
           "src/main/java/net/lkr/item/WesteMedicItem.java",
           "src/main/resources/assets/landkreis_rinken/models/item/weste_medic_chestplate.json"
+        ]
+      },
+      "path": "~/MC stuff"
+    },
+    {
+      "name": "TablettenRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tabletten_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/lkr/procedures/TablettenRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
         ]
       },
       "path": "~/MC stuff"

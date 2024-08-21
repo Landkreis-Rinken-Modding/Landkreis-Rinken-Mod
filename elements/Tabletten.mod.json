@@ -16,7 +16,7 @@
     ],
     "stackSize": 16,
     "enchantability": 0,
-    "useDuration": 0,
+    "useDuration": 3,
     "toolType": 1.0,
     "damageCount": 0,
     "recipeRemainder": {
@@ -36,9 +36,9 @@
     },
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
-    "inventoryStackSize": 64,
-    "onStoppedUsing": {
-      "name": "TablettenOnPlayerStoppedUsing"
+    "inventoryStackSize": 16,
+    "onRightClickedInAir": {
+      "name": "TablettenRightclicked"
     },
     "enableRanged": false,
     "shootConstantly": false,
@@ -54,6 +54,6 @@
     },
     "isMeat": false,
     "isAlwaysEdible": true,
-    "animation": "none"
+    "animation": "eat"
   }
 }
