@@ -13,6 +13,7 @@ import net.minecraft.client.gui.screens.MenuScreens;
 
 import net.lkr.client.gui.SpindguiScreen;
 import net.lkr.client.gui.PassportGuiScreen;
+import net.lkr.client.gui.MediKitGuiScreen;
 import net.lkr.client.gui.FMEScreen;
 import net.lkr.client.gui.CreatePassortScreen;
 
@@ -25,6 +26,7 @@ public class LandkreisRinkenModScreens {
 			MenuScreens.register(LandkreisRinkenModMenus.CREATE_PASSORT.get(), CreatePassortScreen::new);
 			MenuScreens.register(LandkreisRinkenModMenus.PASSPORT_GUI.get(), PassportGuiScreen::new);
 			MenuScreens.register(LandkreisRinkenModMenus.FME.get(), FMEScreen::new);
+			MenuScreens.register(LandkreisRinkenModMenus.MEDI_KIT_GUI.get(), MediKitGuiScreen::new);
 		});
 	}
 }

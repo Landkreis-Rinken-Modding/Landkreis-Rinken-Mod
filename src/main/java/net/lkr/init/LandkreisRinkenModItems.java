@@ -16,6 +16,7 @@ import net.lkr.item.WesteMedicItem;
 import net.lkr.item.TablettenItem;
 import net.lkr.item.PassportfilledItem;
 import net.lkr.item.PassportItem;
+import net.lkr.item.MedikitItem;
 import net.lkr.item.GehhilfeItem;
 import net.lkr.item.FLegginsItem;
 import net.lkr.item.BanHammerItem;
@@ -35,6 +36,7 @@ public class LandkreisRinkenModItems {
 	public static final RegistryObject<Item> ADMIN_TAB_ITEM = REGISTRY.register("admin_tab_item", () -> new AdminTabItemItem());
 	public static final RegistryObject<Item> TABLETTEN = REGISTRY.register("tabletten", () -> new TablettenItem());
 	public static final RegistryObject<Item> WESTE_MEDIC_CHESTPLATE = REGISTRY.register("weste_medic_chestplate", () -> new WesteMedicItem.Chestplate());
+	public static final RegistryObject<Item> MEDIKIT = REGISTRY.register("medikit", () -> new MedikitItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

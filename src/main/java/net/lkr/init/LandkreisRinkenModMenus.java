@@ -13,6 +13,7 @@ import net.minecraft.world.inventory.MenuType;
 
 import net.lkr.world.inventory.SpindguiMenu;
 import net.lkr.world.inventory.PassportGuiMenu;
+import net.lkr.world.inventory.MediKitGuiMenu;
 import net.lkr.world.inventory.FMEMenu;
 import net.lkr.world.inventory.CreatePassortMenu;
 import net.lkr.LandkreisRinkenMod;
@@ -23,4 +24,5 @@ public class LandkreisRinkenModMenus {
 	public static final RegistryObject<MenuType<CreatePassortMenu>> CREATE_PASSORT = REGISTRY.register("create_passort", () -> IForgeMenuType.create(CreatePassortMenu::new));
 	public static final RegistryObject<MenuType<PassportGuiMenu>> PASSPORT_GUI = REGISTRY.register("passport_gui", () -> IForgeMenuType.create(PassportGuiMenu::new));
 	public static final RegistryObject<MenuType<FMEMenu>> FME = REGISTRY.register("fme", () -> IForgeMenuType.create(FMEMenu::new));
+	public static final RegistryObject<MenuType<MediKitGuiMenu>> MEDI_KIT_GUI = REGISTRY.register("medi_kit_gui", () -> IForgeMenuType.create(MediKitGuiMenu::new));
 }

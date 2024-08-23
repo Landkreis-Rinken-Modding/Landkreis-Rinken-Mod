@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "medi_kit"
+      },
+      "name": "default"
+    }
+  }
+}

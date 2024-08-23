@@ -1,0 +1,7 @@
+{
+  "parent": "landkreis_rinken:custom/medi_kit",
+  "textures": {
+    "1": "landkreis_rinken:block/medi_kit",
+    "particle": "landkreis_rinken:item/medikit_png"
+  }
+}
