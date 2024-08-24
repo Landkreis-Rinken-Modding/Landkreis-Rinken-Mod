@@ -37,6 +37,7 @@ public class LandkreisRinkenModTabs {
 				tabData.accept(LandkreisRinkenModItems.TABLETTEN.get());
 				tabData.accept(LandkreisRinkenModItems.WESTE_MEDIC_CHESTPLATE.get());
 				tabData.accept(LandkreisRinkenModItems.MEDIKIT.get());
+				tabData.accept(LandkreisRinkenModItems.BANDAGE.get());
 			})
 
 					.build());

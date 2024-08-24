@@ -1,0 +1,7 @@
+{
+  "parent": "landkreis_rinken:custom/bandage",
+  "textures": {
+    "0": "landkreis_rinken:block/2png",
+    "particle": "landkreis_rinken:item/2png"
+  }
+}

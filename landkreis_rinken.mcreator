@@ -514,6 +514,43 @@
         ]
       },
       "path": "~/MC stuff"
+    },
+    {
+      "name": "Bandage",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bandage",
+      "metadata": {
+        "files": [
+          "src/main/java/net/lkr/item/BandageItem.java",
+          "src/main/resources/assets/landkreis_rinken/models/item/bandage.json"
+        ]
+      },
+      "path": "~/MC stuff"
+    },
+    {
+      "name": "BandageWennLebewesenMitGegenstandGetroffenWird",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bandage_wenn_lebewesen_mit_gegenstand_getroffen_wird",
+      "metadata": {
+        "files": [
+          "src/main/java/net/lkr/procedures/BandageWennLebewesenMitGegenstandGetroffenWirdProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/MC stuff"
     }
   ],
   "variable_elements": [],
@@ -546,6 +583,7 @@
       "gui.landkreis_rinken.medi_kit_gui.label_der_patient_verstirbt": "der Patient verstirbt",
       "gui.landkreis_rinken.medi_kit_gui.label_medikit": "MediKit",
       "item.landkreis_rinken.medikit": "Medikit",
+      "item.landkreis_rinken.bandage": "Bandage",
       "gui.landkreis_rinken.create_passort.special": "Wie soll die Lore des Ausweises sein?",
       "item.landkreis_rinken.gehhilfe": "Gehhilfe",
       "item.landkreis_rinken.admin_tab_item": "Admin Tab Item",
@@ -581,6 +619,7 @@
       "gui.landkreis_rinken.medi_kit_gui.label_der_patient_verstirbt": "der Patient verstirbt",
       "gui.landkreis_rinken.medi_kit_gui.label_medikit": "MediKit",
       "item.landkreis_rinken.medikit": "Medikit",
+      "item.landkreis_rinken.bandage": "Bandage",
       "gui.landkreis_rinken.create_passort.special": "Wie soll die Lore des Ausweises sein?",
       "item.landkreis_rinken.gehhilfe": "Gehhilfe",
       "item.landkreis_rinken.admin_tab_item": "Admin Tab Item",

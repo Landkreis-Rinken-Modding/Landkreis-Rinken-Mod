@@ -10,6 +10,6 @@ public class TablettenRightclickedProcedure {
 		if (entity == null)
 			return;
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-			_entity.addEffect(new MobEffectInstance(MobEffects.REGENERATION, 6000, (int) 0.000001));
+			_entity.addEffect(new MobEffectInstance(MobEffects.REGENERATION, 6000, (int) 0.000001, false, false));
 	}
 }
